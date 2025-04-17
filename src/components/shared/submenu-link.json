@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_submenu_links",
+  "info": {
+    "displayName": "submenuLink"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

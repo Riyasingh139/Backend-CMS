@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "header_collections",
+  "info": {
+    "singularName": "header-collection",
+    "pluralName": "header-collections",
+    "displayName": "Header Collection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Logo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ctaLink": {
+      "type": "json"
+    },
+    "ctaText": {
+      "type": "json"
+    },
+    "menuLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.menu-links"
+    }
+  }
+}
